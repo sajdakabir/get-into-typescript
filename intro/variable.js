@@ -12,3 +12,5 @@ console.log(userId);
 console.log(age);
 //boolean
 var login = false;
+// any
+var hero;

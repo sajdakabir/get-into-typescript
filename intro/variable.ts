@@ -23,5 +23,13 @@ console.log(age);
 let login: boolean = false
 
 
+// any
+
+let hero;
+
+//  I don't wanna to type chcking .
+
+// we usually want to avoid any
+
 
 export {}
