@@ -42,3 +42,10 @@ function consoleError(err) {
 function handleError(err) {
     throw new Error(err);
 }
+// let my fingers used to with type
+var a = 10;
+var b = 1;
+var addTowNum = function (val1, val2) {
+    return val1 + val2;
+};
+var ans = addTowNum(a, b);

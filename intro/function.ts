@@ -67,4 +67,18 @@ function handleError (err: string ): never{
    throw new Error(err);
 }
 
+
+// let my fingers used to with type
+
+const a=10;
+
+const b=1;
+
+const addTowNum = (val1: number, val2:number):number =>{
+    return val1+val2; 
+}
+
+const ans= addTowNum(a,b);
+
+
 export {}
