@@ -25,3 +25,15 @@ var createUser1 = function (user) {
     console.log(user.name);
     return { name: "sajda", email: "s@s.com", isActive: true };
 };
+// ? -->> make that veriable optinal
+var createHero = {
+    _id: "234",
+    name: "superman",
+    power: "runing",
+    email: "superman@gmail.com"
+};
+var newProject = {
+    lang: "node",
+    version: 0.9,
+    devTeam: "Sajda"
+};
