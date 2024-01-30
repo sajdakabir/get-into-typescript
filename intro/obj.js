@@ -21,3 +21,7 @@ console.log(createUser);
 function retunrObject() {
     return {};
 }
+var createUser1 = function (user) {
+    console.log(user.name);
+    return { name: "sajda", email: "s@s.com", isActive: true };
+};
