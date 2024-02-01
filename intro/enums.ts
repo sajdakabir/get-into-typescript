@@ -16,3 +16,5 @@ const enum SeatChoice {
 }
 
 const skSeat = SeatChoice.MIDDLE
+
+export {}
