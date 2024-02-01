@@ -8,6 +8,8 @@ var sajda = {
     dbId: 12,
     email: "sajda@gmail.com",
     userId: 45,
+    githubToken: "gufgbeuwa",
+    role: 'admin',
     startTrail: function () {
         return "trail started";
     },

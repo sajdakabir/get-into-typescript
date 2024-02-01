@@ -16,10 +16,12 @@ interface User {
     // getCoupon: (couponname: string, value: number)=>number
 }
 
-const sajda : User = {
+const sajda : Admin = {
     dbId:12,
     email: "sajda@gmail.com",
     userId:45,
+    githubToken: "gufgbeuwa",
+    role: 'admin',
     startTrail: ()=>{
         return "trail started"
     },
@@ -35,6 +37,21 @@ sajda.email="saju@gmail.com"
 
 const createUser = (u: User)=>{
     console.log(`this is the user email${u.email}`);
+}
+
+
+// interface and type
+
+// re- openting the interface
+
+interface User {
+    githubToken: string
+}
+
+// inheritance
+
+interface Admin extends User {
+    role: "admin" | 'ta' | 'learner'
 }
 
 
